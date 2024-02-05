@@ -1,0 +1,8 @@
+#gameDiv{
+  font-family: cursive;
+  border: 3px solid;
+  border-radius: 25px ;
+  text-align: center;
+  padding: 10px;
+  background-color: lightgray;
+}
