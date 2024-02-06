@@ -1,0 +1,32 @@
+#abc{
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 50px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+  border: none;
+}
+
+body{
+  background-image: url(gif.gif);
+}
+
+#navn{
+  background: none;
+}
+
+#password{
+  background: transparent;
+}
+
+#submit{
+  background: transparent;
+}
+
+#reset{
+  background: transparent;
+
+}
