@@ -43,3 +43,39 @@ function checkWinner(){
     return (player == "ROCK") ? "You Win!" : "You Lose!"
   }
 }
+function bb08(){
+  document.querySelector('body').style.background = "url('gif.gif')"
+
+  var h1 = document.getElementById('playerText');
+  h1.style.color = 'white';
+
+  var h1 = document.getElementById('computerText');
+  h1.style.color = 'white';
+
+  var h1 = document.getElementById('resultText');
+  h1.style.color = 'white';
+}
+function bb09(){
+  document.querySelector('body').style.background = "url('gif3.gif')"
+
+  var h1 = document.getElementById('playerText');
+  h1.style.color = 'white';
+
+  var h1 = document.getElementById('computerText');
+  h1.style.color = 'white';
+
+  var h1 = document.getElementById('resultText');
+  h1.style.color = 'white';
+}
+function bb07(){
+  document.querySelector('body').style.background = "url('gif4.gif')"
+
+  var h1 = document.getElementById('playerText');
+  h1.style.color = 'white';
+
+  var h1 = document.getElementById('computerText');
+  h1.style.color = 'white';
+
+  var h1 = document.getElementById('resultText');
+  h1.style.color = 'white';
+}
