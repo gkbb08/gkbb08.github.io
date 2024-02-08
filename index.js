@@ -45,6 +45,7 @@ function checkWinner(){
 }
 function bb08(){
   document.querySelector('body').style.background = "url('gif.gif')"
+  document.querySelector('body').style.backgroundImage = no-repeat
 
   var h1 = document.getElementById('playerText');
   h1.style.color = 'white';
