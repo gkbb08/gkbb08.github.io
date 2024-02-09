@@ -80,3 +80,6 @@ function bb07(){
   var h1 = document.getElementById('resultText');
   h1.style.color = 'white';
 }
+window.addEventListener('load', () => {
+  document.getElementById("erika").play();
+});
