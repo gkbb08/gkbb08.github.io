@@ -31,7 +31,8 @@ function computerTurn(){
 }
 function checkWinner(){
   if(player == computer){
-    return "Draw!"; 
+    return "Draw!"
+
   }
   else if(computer == "ROCK"){
     return (player == "PAPER") ? "You Win!" : "You Lose!"
@@ -45,7 +46,6 @@ function checkWinner(){
 }
 function bb08(){
   document.querySelector('body').style.background = "url('gif.gif')"
-  document.querySelector('body').style.backgroundImage = no-repeat
 
   var h1 = document.getElementById('playerText');
   h1.style.color = 'white';
@@ -71,6 +71,8 @@ function bb09(){
 function bb07(){
   document.querySelector('body').style.background = "url('gif4.gif')"
 
+  document.querySelector('body').style.background = "url('gif3.gif')"
+
   var h1 = document.getElementById('playerText');
   h1.style.color = 'white';
 
@@ -80,6 +82,4 @@ function bb07(){
   var h1 = document.getElementById('resultText');
   h1.style.color = 'white';
 }
-window.addEventListener('load', () => {
-  document.getElementById("erika").play();
-});
+console.log('navn og passord')
